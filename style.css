@@ -10,12 +10,13 @@ h1 { text-align: center }
   background: #fff;
     width: calc(300px + (700 - 300) * ((100vw - 340px) / (2000 - 340)));
 	position: relative;
-	margin: 5vh auto 0;
+	margin: calc(3vh + (7 - 3) * ((100vw - 340px) / (2000 - 340))) auto 0;
 }
 
 .carousel-cell {
   margin-right: 10px;
   overflow: hidden;
+  box-shadow: 0 3px 10px #999;
 }
 
 .carousel-cell img {
