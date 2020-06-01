@@ -1,0 +1,44 @@
+/* external css: flickity.css */
+
+
+
+* { box-sizing: border-box }
+
+h1 { text-align: center }
+
+.carousel {
+  background: #fff;
+    width: calc(300px + (700 - 300) * ((100vw - 340px) / (2000 - 340)));
+	position: relative;
+	margin: 5vh auto 0;
+}
+
+.carousel-cell {
+  margin-right: 10px;
+  overflow: hidden;
+}
+
+.carousel-cell img {
+  display: block;
+  width: calc(300px + (700 - 300) * ((100vw - 340px) / (2000 - 340)));
+}
+/* 
+@media screen and ( min-width: 768px ) {
+  .carousel-cell img {
+    height: 400px;
+  }
+} */
+
+/* body > div > .flickity-page-dots {
+	position: absolute;
+	bottom: -180px;
+} */
+
+
+body > div > .flickity-page-dots {
+display: none;
+}
+
+.flickity-button {
+	color: #099;
+}
